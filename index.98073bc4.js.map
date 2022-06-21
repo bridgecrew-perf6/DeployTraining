@@ -1,0 +1,1 @@
+{"mappings":"AAAAA,QAAQC,IAAI,CACVC,OAAQ","sources":["src/main.js"],"sourcesContent":["console.log({\n  answer: 42,\n})"],"names":["console","log","answer"],"version":3,"file":"index.98073bc4.js.map"}
