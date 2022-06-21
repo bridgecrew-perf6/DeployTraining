@@ -1,15 +1,16 @@
 {
-  "name": "DEPLOY",
+  "name": "deploy",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "source": "./src/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.1",
     "parcel": "^2.6.1"
   }
 }
