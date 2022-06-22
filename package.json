@@ -10,7 +10,8 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "lint": "eslint ./src",
-    "lint:fix": "npm run lint -- --fix"
+    "lint:fix": "npm run lint -- --fix",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
@@ -24,6 +25,7 @@
     "eslint-plugin-react": "^7.30.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "gh-pages": "^4.0.0",
-    "parcel": "^2.6.1"
+    "parcel": "^2.6.1",
+    "husky": "^8.0.0"
   }
 }
